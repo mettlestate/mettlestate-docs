@@ -1,68 +1,116 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
+  "theme": "maple",
+  "name": "Mettlestate Tournament Platform",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#EF4444",
+    "light": "#EF4444",
+    "dark": "#EF4444"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/images/logo/favicon.png",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Documentation",
         "groups": [
           {
             "group": "Getting started",
             "pages": [
               "index",
-              "quickstart",
-              "development"
+              "quick-start"
             ]
           },
           {
-            "group": "Customization",
+            "group": "User Onboarding",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "user-onboarding/index",
+              "user-onboarding/login-process",
+              "user-onboarding/registration-process"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Players",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "players/customization",
+              "players/preferred-games",
+              "players/linked-game-accounts",
+              "players/stats"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Events",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
+              "events/overview",
+              "events/registration",
+              "events/stages",
+              "events/matchmaking",
+              "events/match-flow",
+              "events/management"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Finance",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "finance/wallets",
+              "finance/prize-pools",
+              "finance/reporting"
+            ]
+          },
+          {
+            "group": "Teams",
+            "pages": [
+              "teams/overview",
+              "teams/structure",
+              "teams/operations"
+            ]
+          },
+          {
+            "group": "Organizations",
+            "pages": [
+              "organizations/overview",
+              "organizations/roles",
+              "organizations/finance"
+            ]
+          },
+          {
+            "group": "Engagement",
+            "pages": [
+              "engagement/overview",
+              "engagement/missions",
+              "engagement/battle-pass",
+              "engagement/notifications"
+            ]
+          },
+          {
+            "group": "Analytics",
+            "pages": [
+              "analytics/overview",
+              "analytics/tournament-analytics"
+            ]
+          },
+          {
+            "group": "Infrastructure",
+            "pages": [
+              "infrastructure/overview",
+              "infrastructure/architecture",
+              "infrastructure/integrations",
+              "infrastructure/scalability",
+              "infrastructure/security"
+            ]
+          },
+          {
+            "group": "Business",
+            "pages": [
+              "business/overview",
+              "business/competitive-advantages",
+              "business/revenue-streams",
+              "business/market-opportunity"
+            ]
+          },
+          {
+            "group": "Match System",
+            "pages": [
+              "match-system/overview"
             ]
           }
         ]
@@ -77,51 +125,46 @@
         },
         {
           "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "href": "https://discord.com/invite/mettlestate",
+          "icon": "discord"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
+          "anchor": "News & Updates",
+          "href": "https://mettlestate.com/news",
           "icon": "newspaper"
         }
       ]
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/images/logo/red-logo-horizontal.webp",
+    "dark": "/images/logo/red-logo-horizontal.webp"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "https://discord.com/invite/mettlestate"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Visit Mettlestate",
+      "href": "https://mettlestate.com"
     }
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy"
+    ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/mettlestate",
+      "instagram": "https://instagram.com/mettlestate",
+      "facebook": "https://facebook.com/mettlestate",
+      "youtube": "https://youtube.com/mettlestate",
+      "linkedin": "https://linkedin.com/company/mettlestate"
     }
   }
 }

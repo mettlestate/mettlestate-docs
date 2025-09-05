@@ -1,0 +1,45 @@
+---
+title: "Login Process"
+description: "Secure, user-friendly authentication with validation and error handling."
+---
+
+The login process in the Mettlestate Tournament Platform provides a secure, player-friendly authentication experience with comprehensive validation and error handling.
+
+## Step-by-Step Login Flow
+
+![login form](/images/screenshots/login-proccess.png)
+
+### Step 1: Access Login Page
+
+**URL**: `/login`
+
+**Entry Points**: 
+- Direct URL navigation
+- Navigation menu links
+- Redirects from protected pages
+- Email links from password reset
+
+**Pre-Authentication Check**: Redirects authenticated players to `/home`
+
+### Step 2: Login Form Display
+
+**Form Elements**:
+- **Playername/Email input field** (required)
+  - Placeholder text: "Playername / Email Address"
+  - Auto-focus on page load
+  - Supports both playername and email formats
+  - Maximum length: [PLACEHOLDER: Document character limit]
+- **Password input field** (required)
+  - Placeholder text: "Password"
+  - Show/hide password toggle
+  - Minimum length requirement: [PLACEHOLDER: Document minimum length]
+- **"Forgot your password?" link**
+  - Opens `/forgot-password`
+- **Link to registration page** (below form)
+  - Text: "No account? Create one"
+  - Opens `/register`
+
+### Step 3: Post Authentication Flow
+
+**Successful Login**
+- Player redirected to `/home`
