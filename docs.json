@@ -28,15 +28,6 @@
             ]
           },
           {
-            "group": "Players",
-            "pages": [
-              "players/customization",
-              "players/preferred-games",
-              "players/linked-game-accounts",
-              "players/stats"
-            ]
-          },
-          {
             "group": "Events",
             "pages": [
               "events/overview",
@@ -48,11 +39,12 @@
             ]
           },
           {
-            "group": "Finance",
+            "group": "Players",
             "pages": [
-              "finance/wallets",
-              "finance/prize-pools",
-              "finance/reporting"
+              "players/customization",
+              "players/preferred-games",
+              "players/linked-game-accounts",
+              "players/stats"
             ]
           },
           {
@@ -69,6 +61,14 @@
               "organizations/overview",
               "organizations/roles",
               "organizations/finance"
+            ]
+          },
+          {
+            "group": "Finance",
+            "pages": [
+              "finance/wallets",
+              "finance/prize-pools",
+              "finance/reporting"
             ]
           },
           {
