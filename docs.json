@@ -23,7 +23,6 @@
           {
             "group": "User Onboarding",
             "pages": [
-              "user-onboarding/index",
               "user-onboarding/login-process",
               "user-onboarding/registration-process"
             ]
