@@ -33,9 +33,8 @@
               "events/overview",
               "events/registration",
               "events/stages",
-              "events/matchmaking",
-              "events/match-flow",
-              "events/management"
+              "events/matches",
+              "events/chat"
             ]
           },
           {
