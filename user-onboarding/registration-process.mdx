@@ -5,86 +5,18 @@ description: "Comprehensive account creation with security and seamless onboardi
 
 The registration process in the Mettlestate Tournament Platform provides a comprehensive account creation experience with robust validation, security features, and seamless onboarding integration.
 
-## Step-by-Step Registration Flow
+## Registration at a glance
 
-![login form](/images/screenshots/login-proccess.png)
+![registration form](/images/screenshots/register-process.png)
 
-### Step 1: Access Registration Page
+- Open `/register`. If already signed in, you will be redirected to `/home`.
+- Enter a playername, email address, and password, then confirm your password.
+- Submit to create your account. If email verification is enabled, follow the link sent to your inbox.
+- On success, you are signed in automatically and redirected to `/home`. Errors are shown inline so you can retry.
 
-**URL**: `/register`
+## Notes
 
-**Entry Points**: 
-- Login page link ("No account? Create one")
-- Direct URL navigation
-- Marketing funnel integration
-- Referral links
-- Social media campaigns
-
-**Pre-Registration Check**: Redirects authenticated players to `/home`
-
-### Step 2: Registration Form Display
-
-**Form Elements**:
-- **Playername input field** (max 16 characters, alphanumeric + underscore/dash)
-  - Placeholder text: "Playername"
-  - Character validation: Real-time feedback on invalid characters
-  - Availability check: [PLACEHOLDER: Document if real-time playername availability check exists]
-  - Suggestion system: [PLACEHOLDER: Document if playername suggestions are provided]
-  - Reserved names: [PLACEHOLDER: Document if certain playernames are blocked]
-- **Email address input field** (valid email format required)
-  - Placeholder text: "Email Address"
-  - Email validation: Real-time format checking
-  - Domain validation: [PLACEHOLDER: Document if domain existence is verified]
-  - Disposable email blocking: [PLACEHOLDER: Document if disposable emails are blocked]
-  - Email confirmation: [PLACEHOLDER: Document if email confirmation is required]
-- **Password input field** (required)
-  - Placeholder text: "Password"
-  - Password strength indicator: [PLACEHOLDER: Document if password strength meter exists]
-  - Requirements display: [PLACEHOLDER: Document if password requirements are shown]
-  - Show/hide toggle: Eye icon for password visibility
-- **Confirm password input field** (required)
-  - Placeholder text: "Confirm Password"
-  - Real-time matching: Instant feedback on password match
-  - Error styling: Visual indication of mismatch
-- **CREATE FREE ACCOUNT button** (full-width, primary styling)
-  - Loading state: Spinner animation during submission
-  - Disabled state: Button disabled during form processing
-  - Hover effects: [PLACEHOLDER: Document hover animations]
-- **Link to login page** (below form)
-  - Text: "Already have an account? Log in"
-  - Styling: Primary color with hover effects
-
-**Character Restrictions**: Playername limited to 16 characters with specific character set
-- Allowed characters: Letters, numbers, underscores, dashes
-- Prohibited patterns: [PLACEHOLDER: Document if certain patterns are blocked]
-- Case sensitivity: [PLACEHOLDER: Document if playernames are case-sensitive]
-
-**Password Requirements**: Minimum security standards
-- Minimum length: [PLACEHOLDER: Document exact minimum length]
-- Character requirements: [PLACEHOLDER: Document if special characters are required]
-- Common password blocking: [PLACEHOLDER: Document if common passwords are blocked]
-- Strength requirements: [PLACEHOLDER: Document if minimum strength is required]
-
-### Step 5: Post-Registration Flow
-
-**Automatic Authentication**: Login with new credentials
-- Credential validation: [PLACEHOLDER: Document validation process]
-- Session establishment: [PLACEHOLDER: Document session creation]
-- Player context: [PLACEHOLDER: Document context initialization]
-
-**Home Page Redirect**: Redirect to main application
-- Redirect timing: [PLACEHOLDER: Document redirect delay]
-- Loading state: [PLACEHOLDER: Document loading indicator]
-- Error handling: [PLACEHOLDER: Document redirect failure handling]
-
-**Session Establishment**: Full player session creation
-- Session token: [PLACEHOLDER: Document token generation]
-- Session duration: [PLACEHOLDER: Document session timeout]
-- Session persistence: [PLACEHOLDER: Document session storage]
-
-**Welcome Experience**: Onboarding flow initiation
-- Welcome message: [PLACEHOLDER: Document welcome content]
-- Tutorial system: [PLACEHOLDER: Document tutorial initiation]
-- Profile setup: [PLACEHOLDER: Document profile completion]
-- Feature introduction: [PLACEHOLDER: Document feature walkthrough]
-
+- Playername: up to 16 characters; letters, numbers, underscores, and dashes are allowed.
+- Passwords must meet minimum security standards; inputs are validated client- and server-side.
+- Sessions are established securely after registration; basic rate limiting and abuse protections apply.
+- Already have an account? Use the link to log in from the registration page.
