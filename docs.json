@@ -42,8 +42,7 @@
             "pages": [
               "players/customization",
               "players/preferred-games",
-              "players/linked-game-accounts",
-              "players/stats"
+              "players/linked-game-accounts"
             ]
           },
           {
@@ -74,16 +73,9 @@
             "group": "Engagement",
             "pages": [
               "engagement/overview",
-              "engagement/missions",
               "engagement/battle-pass",
-              "engagement/notifications"
-            ]
-          },
-          {
-            "group": "Analytics",
-            "pages": [
-              "analytics/overview",
-              "analytics/tournament-analytics"
+              "engagement/raffle",
+              "engagement/shop"
             ]
           },
           {
