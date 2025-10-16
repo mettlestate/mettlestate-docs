@@ -96,12 +96,6 @@
               "business/revenue-streams",
               "business/market-opportunity"
             ]
-          },
-          {
-            "group": "Match System",
-            "pages": [
-              "match-system/overview"
-            ]
           }
         ]
       }
