@@ -3,21 +3,21 @@ title: "Stages"
 description: "Supported stage types, seeding, bracket generation, and progression."
 ---
 
-Stages are the main containers for the event. They are used to group matches together and determine the progression of the event.
-Stages are not limited to a single format. They can be a combination of formats.
-Stages can be nested to create a multi-stage event. Stages can be created at any time during the event.
+Stages are the main containers for the event. They are used to group matches together and determine the progression of the event. Stages are not limited to a single format. They can be a combination of formats. Stages can be nested to create a multi-stage event. Stages can be created at any time during the event.
 
 ## Stage Types
+
 - Single Elimination
 - Double Elimination
 - Six-team Double Elimination
 - Round Robin / Double Round Robin
 - Battle Royale leaderboard
 - Battlegrounds leaderboard
-- Swiss (*coming soon*)
-- Racing leaderboard (*coming soon*)
+- Swiss (_coming soon_)
+- Racing leaderboard (_coming soon_)
 
-*All stages support solo and team participation*
+_All stages support solo and team participation_
+
 {/* 
 ### Single Elimination
 
@@ -53,25 +53,28 @@ Stages can be nested to create a multi-stage event. Stages can be created at any
 ![Placeholder](/images/screenshots/stage-battlegrounds-leaderboard.png) */}
 
 ## Seeding
+
 - Automatic Seeding
-	- Player Ranking
-	- Performance History
-	- Randomly shuffled (where no history is available)
+  - Player Ranking
+  - Performance History
+  - Randomly shuffled (where no history is available)
 - Manual Seeding
-	- Admin Override
-	- Balance Considerations from unlinked events or players
+  - Admin Override
+  - Balance Considerations from unlinked events or players
 
 ## Bracket generation
-Brackets are generated automatically based on the seeding method. Admins can manually adjust the seeding and re-generate the bracket as long as the stage is not in progress. 
-Admins are able to manually insert, update or remove players/teams in a stage at any given time.
+
+Brackets are generated automatically based on the seeding method. Admins can manually adjust the seeding and re-generate the bracket as long as the stage is not in progress. Admins are able to manually insert, update or remove players/teams in a stage at any given time.
 
 ## Promotion / Relegation
-- Usually used during Leagues and Tournaments to move players between different stages of an event.
-- Admins can define advancement paths between stages.
-- Admins can set promotion and relegation rules for each stage.
-- Admins can manually promote and relegate players between stages.
+
+- Usually used during Leagues and Tournaments to move players between different stages of an event
+- Admins can define advancement paths between stages
+- Admins can set promotion and relegation rules for each stage
+- Admins can manually promote and relegate players between stages
 
 ### Example Usage:
+
 - **Round Robin to Elimination bracket**: Top 2 per group advance to a playoffs bracket
 - **Round Robin to Round Robin**: Top 4 from Semi-Pro RR promote to Pro RR; bottom 4 from Pro RR relegate to Semi-Pro.
 - **Battlegrounds to Battlegrounds**: Top 4 from Semi-Pro BG promote to Pro BG; bottom 4 from Pro BG relegate to Semi-Pro BG.
