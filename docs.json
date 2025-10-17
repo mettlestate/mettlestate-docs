@@ -54,11 +54,11 @@
             ]
           },
           {
-            "group": "Organizations",
+            "group": "Organisations",
             "pages": [
-              "organizations/overview",
-              "organizations/roles",
-              "organizations/finance"
+              "organisations/overview",
+              "organisations/roles",
+              "organisations/finance"
             ]
           },
           {
@@ -79,6 +79,15 @@
             ]
           },
           {
+            "group": "Business",
+            "pages": [
+              "business/overview",
+              "business/competitive-advantages",
+              "business/revenue-streams",
+              "business/market-opportunity"
+            ]
+          },
+          {
             "group": "Infrastructure",
             "pages": [
               "infrastructure/overview",
@@ -87,15 +96,6 @@
               "infrastructure/scalability",
               "infrastructure/security"
             ]
-          },
-          {
-            "group": "Business",
-            "pages": [
-              "business/overview",
-              "business/competitive-advantages",
-              "business/revenue-streams",
-              "business/market-opportunity"
-            ]
           }
         ]
       }
@@ -103,9 +103,9 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Website",
+          "href": "https://www.mettlestate.com",
+          "icon": "globe"
         },
         {
           "anchor": "Community",
@@ -116,6 +116,11 @@
           "anchor": "News & Updates",
           "href": "https://mettlestate.com/news",
           "icon": "newspaper"
+        },
+        {
+          "anchor": "Business",
+          "href": "https://business.mettlestate.com",
+          "icon": "building-office"
         }
       ]
     }
