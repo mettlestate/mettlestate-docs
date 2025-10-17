@@ -40,7 +40,7 @@
           {
             "group": "Players",
             "pages": [
-              "players/customization",
+              "players/customisation",
               "players/preferred-games",
               "players/linked-game-accounts"
             ]
